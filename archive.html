@@ -41,7 +41,7 @@
         }
 
     .box{
-        border:2px solid ##f70f0f;
+        border:2px solid #f70f0f;
         padding:15px;
         margin-bottom:15px;
     }
@@ -67,7 +67,6 @@
             padding:10px;
             color: red;
  text-align: center;
-    margin-top: 100px;
         }
 
         .main-header {
@@ -78,10 +77,13 @@
             padding: 8px;
             text-align: center;
         }
-        .content {
-    height: 80vh;
-    text-align: center;
-        }
+        .content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+}
         .content h2 {
             color: blue;
         }
@@ -108,11 +110,15 @@
             padding-left: 50px;
         }
         .footer{
-            background:0033cc;
+            background:#0033cc;
             border:2px solid black;
             text-align:center;
             padding:8px;
             color:blue;
+                position:fixed;
+    bottom:15px;
+    left:0;
+    width:100%;
         }
 
                 .footer a:hover{
@@ -134,7 +140,7 @@
                 <div class="layout">
                     <div class="main">
 
-                        <div class'"content">
+                        <div class"content">
 
                             <p style="color: white;">
                                 PLACEHOLDER
@@ -143,15 +149,14 @@
                             <p>
           PLACEHOLDER.
         </p>
+                        </div>
+                    </div>
      <div class="footer">
          <a href="index.html">Home</a> |
             <a href="about.html">Me</a> |
             <a href="#">Blog</a> |
             <a href="archive.html">ARCHIVE</a>
      </div>
-                        </div>
-                    </div>
-
                 </div>
                 </p>
             </p>
